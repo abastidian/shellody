@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 100
+ignore = F403, F405, W504, W503
+exclude =
+    .git,
+    .venv,
+    __pycache__,
+    docs,
+    dist,
+    conftest.py
